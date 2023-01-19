@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(141, 141, 97);
 }
- h2 {
+
+h2 {
     margin: 20px auto;
     padding: 10px;
     text-align: center;
-    background-color: black ;
+    background-color: black;
     color: white;
     width: 500px;
     border-radius: 50px;
@@ -18,35 +20,40 @@ body {
     font-weight: bolder;
     font-size: 40px;
 
- }
- .calc {
+}
+
+.calc {
     margin: 0px auto 0px auto;
     width: 500px;
     height: 500px;
     border: 3px solid black;
     border-radius: 15px;
- }
- .display {
+}
+
+.display {
     margin: 5px auto;
     width: 500px;
     height: 80px;
     /* border: 3px solid rgb(46, 56, 28); */
-    background-color: rgb(146, 165, 182)  ;
+    background-color: rgb(146, 165, 182);
     border-radius: 15px;
- }
- input {
-   width: inherit;
-   height: inherit;
-   border-radius: inherit;
-   border: none;
-   font-size: 50px;
-   font-weight: bolder;
-   padding-left: 10px;
- }
- #input:focus {
-   border: none
- }
- .btn {
+}
+
+input {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    border: none;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+#input:focus {
+    border: none
+}
+
+.btn {
     font-weight: bolder;
     font-size: 50px;
     background-color: black;
@@ -61,31 +68,85 @@ body {
     position: relative;
     left: 9px;
     top: 30px;
- }
- .btn:hover {
+}
+
+.btn:hover {
     background-color: aliceblue;
     color: black;
- }
- .border1 {
+}
+
+.border1 {
     border: 3px solid black;
     margin: auto;
     width: 550px;
     height: 610px;
     border-radius: 20px;
     background-color: rgb(87, 87, 26);
- }
- .border2 {
+}
+
+.border2 {
     border: 3px solid black;
     margin: 15px auto 0px auto;
     width: 650px;
     height: 750px;
     border-radius: 20px;
     background-color: black;
- }
- .calc {
+}
+
+.calc {
     background-color: rgb(134, 122, 52);
+
+}
+
+@media screen and (max-width: 360px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .border2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .border1 {
+        width: 95%;
+        height: 80vh;
+    }
+    .btn:hover {
+        background-color: aliceblue;
+        color: black;
+    }
     
- }
- button {
-   font-size: 100px;
- }
+    .display {
+        width: 100%;
+        height: 3rem;
+    }
+    input {
+        width: inherit;
+    }
+    .calc {
+        width: 95%;
+    }
+    .btn {
+        font-weight: bolder;
+        font-size: 50px;
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        margin: 5px 6px;
+        width: 18%;
+        height: 15%;
+        position: relative;
+        left: 9px;
+        top: 30px;
+    }
+    h2 {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        width: inherit;
+    }
+}
