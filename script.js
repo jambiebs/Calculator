@@ -7,7 +7,7 @@ Array.from(button.forEach((button) => {
             input.value = string;
         }
         else{
-            if (e.target.innerText == "Reset"){
+            if (e.target.innerText == "C"){
                 string = "";
                 input.value = string;
             }
