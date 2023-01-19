@@ -92,12 +92,9 @@ input {
     border-radius: 20px;
     background-color: black;
 }
-
 .calc {
     background-color: rgb(134, 122, 52);
-
 }
-
 @media screen and (max-width: 720px) {
     body {
         width: 100%;
