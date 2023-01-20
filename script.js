@@ -1,5 +1,5 @@
 const result = document.getElementById("result");
-resultg.addEventListener('keypress', function(e){
+result.addEventListener('keypress', function(e){
     if(e.key === 'Enter'){
         e.preventDefault();
         result.value = eval(result.value);
