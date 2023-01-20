@@ -14,7 +14,7 @@
     margin: 1em auto;
     border-radius: 3em;
     position: relative;
-    border: 2px solid blue;
+    border: 2px solid green;
 }
 .display {
     font-size: 6rem;
@@ -88,6 +88,7 @@ form {
 .container{
     width: 100vw;
     height: 100vh;
+    border: 0;
 }
 .display {
     height: 19vh;
