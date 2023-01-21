@@ -9,7 +9,7 @@
 }
 .container {
     width: 40vw;
-    height: 100vh;
+    height: 98vh;
     background-color: white;
     margin: 1em auto;
     border-radius: 3em;
@@ -107,8 +107,9 @@ form {
     }
 .container{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     border: 0;
+    margin-top: 5vh;
 }
 .display {
     height: 19vh;
